@@ -1,0 +1,132 @@
+*{
+  color: white;
+  font-family: Montserrat;
+  src: url(Montserrat-Regular.ttf);
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: white;
+}
+
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(material.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+.indicators{
+  background-color: #090f1d;
+}
+
+.change-color a{
+  color: #EF2075;
+}
+
+.container-sign{
+  width: 40%;
+  margin: 0 auto; 
+}
+
+.container-list{
+  width: 90%;
+  margin: 0 auto; 
+}
+
+.slider .indicators {
+  padding-top: 25px;
+}
+
+.slides{
+  height: 460px !important ;
+}
+
+.slider{
+  height: 500px !important ;
+}
+
+
+.movie-list{
+  height: 1100px;
+  background-color:#090f1d ;
+}
+
+.movie-list-1{
+  height: 1100px;
+  background-color:#090f1d ;
+}
+
+.movie-list-2{
+  height: 800px;
+  background-color:#325197 ;
+}
+
+.movie-news{
+  height: 2700px;
+  background-color:#090f1d ;
+}
+
+.trailer-section{
+  height: 560px;
+  background-color: #152346;
+  
+}
+
+.news-section{
+  height: 720px;
+  background-color:#090f1d; 
+}
+
+.slider .indicators .indicator-item.active {
+  background-color: #EF2075 !important;
+}
+
+.sidebar{
+  height: 1100px;
+  background-color: #0d162b;
+}
+
+.sidenavs{
+  font-size: 1.2em;
+  padding: 2px 0 2px 0;
+}
+
+.sidenavs li{
+  font-size: .8em;
+  padding: 12px 0 12px 0;
+  transition: .3s;
+}
+
+.active, .sidenavs li:hover{
+  background-color :#090f1d ;
+  color: #EF2075;
+}
+
+.sidenavs li a{
+  color: #b4b4b4;
+  padding-left: 15px;
+  transition: .3s;
+}
+
+.parallax-container{
+  height: 300px !important;
+}
+
+
