@@ -8,6 +8,14 @@
     var elems = document.querySelectorAll('.parallax');
     var instances = M.Parallax.init(elems);
   });
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.materialboxed');
+    var instances = M.Materialbox.init(elems);
+  });
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems);
+  });
 
 // Add active class to the current button (highlight it)
 var header = document.getElementById("mySide");
